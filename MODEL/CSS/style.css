@@ -1,0 +1,45 @@
+#navbar {
+    background-color: grey; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+.semesters li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    transform: scale(1.15);
+}
+
+.semesters {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: grey;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(54, 49, 49);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
