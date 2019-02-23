@@ -12,6 +12,17 @@
     padding: 20px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+    padding-bottom: 1.1em;
+    height: 75x;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
 li a {
     display: block;
     color: black;
