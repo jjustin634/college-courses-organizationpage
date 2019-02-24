@@ -2,8 +2,6 @@
     background-color: grey; 
     list-style-type: none;
     text-align: center;
-    margin: 0;
-    padding: 0;
   }
   
 .semesters li {
@@ -44,7 +42,21 @@ body {
     background-color: grey;
 }
 
-#article1{
+.hometab a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.hometab a:hover:not(.active) {
+    transform: scale(1.15);
+}
+
+#articlemain {
     color: grey;
     margin-left: auto;
     margin-right: auto;
@@ -52,6 +64,78 @@ body {
     padding: 10px;
     width: 80%;
     background-color: #f1f1f1;
+    height: 480px; 
+}
+
+#articlefall19 {
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    padding: 10px;
+    width: 80%;
+    background-color: #f1f1f1;
+    margin-top: 3%;
+    height: 480px; 
+}
+
+#articlesummer19 {
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    padding: 10px;
+    width: 80%;
+    background-color: #f1f1f1;
+    margin-top: 3%;
+    height: 480px; 
+}
+
+#articlespring19 {
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    padding: 10px;
+    width: 80%;
+    background-color: #f1f1f1;
+    margin-top: 3%;
+    height: 480px; 
+}
+
+#articlefall20 {
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    padding: 10px;
+    width: 80%;
+    background-color: #f1f1f1;
+    margin-top: 3%;
+    height: 480px; 
+}
+
+#articlesummer20 {
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    padding: 10px;
+    width: 80%;
+    background-color: #f1f1f1;
+    margin-top: 3%;
+    height: 480px; 
+}
+
+#articlespring20 {
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    padding: 10px;
+    width: 80%;
+    background-color: #f1f1f1;
+    margin-top: 3%;
     height: 480px; 
 }
 
