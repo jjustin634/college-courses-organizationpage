@@ -84,11 +84,11 @@ body {
     height: 480px; 
 }
 
-#fallsemester19header {
+#school-name-course-information {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(78, 74, 74);
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #descriptionwidth {
@@ -104,6 +104,19 @@ table {
     height: 83%;
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#fall-2020-classes {
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    padding-top: 130px;
+    text-transform: uppercase;
+}
+
+#fall-2020-classes:hover:not(.active) {
+    transform: scale(1.02);
 }
 
 .footer {
