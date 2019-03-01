@@ -56,6 +56,19 @@ body {
     transform: scale(1.15);
 }
 
+#demo-for-homescreen {
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+#demo-for-homescreen :hover:not(.active) {
+    transform: scale(1.02);
+}
+
 #articlemain {
     color: grey;
     margin-left: auto;
